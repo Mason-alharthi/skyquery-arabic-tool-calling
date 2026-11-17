@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+*.key
+
+# Models and large artefacts (published on the Hugging Face Hub instead)
+*.safetensors
+*.bin
+*.gguf
+checkpoints/
+outputs/
+wandb/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
